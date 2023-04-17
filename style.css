@@ -26,22 +26,62 @@ a, a:active {
     width: 1450px;
 
 }
-
-.menu{
-    display: flex;
-    align-items: center;
-list-style: none;
-
-}
-.menu li{
-    margin: 30px;
-}
-
-.medio{
-    min-height: 84vh;
-    display: flex;
-    background-color: rgb(239, 196, 255);
+body {
+    background: #f1f1f1;
+    font-family: sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    background-color: rgb(180, 146, 211);
+    overflow: hidden;
+  }
+  
+  header img{
+    display: block;
+    margin: auto;
+  }
+  
+  nav {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 15px 20px;
+    display: block;
+    font-size: 1.1rem;
+    transition: all .4s ease-in-out;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a:hover {
+    background: #6e20a6;
+    color: #000;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    header nav ul li {
+      display: block;
+      margin-right: 0;
     }
+  
+    
+    nav ul li a {
+      text-align: center;
+    }
+  }
+  
+  
 .final{
     background-color: rgb(180, 146, 211);
     padding: 20px;
@@ -51,6 +91,7 @@ list-style: none;
     width: 1450px;
 
 }
+
 .redes a i{
     font-size: 20px;
     text-align: left;
@@ -67,6 +108,7 @@ height:700px;
 }
 
 /*discografica*/
+
 
 .disco{
     margin: 40px;
@@ -191,67 +233,32 @@ border: 1px solid antiquewhite;
 .galeriaL{
     text-align: center;
     font-family: 'Alkatra', cursive;
-}
-.img1{
-    margin: 10px;
-    width: 350px;
-    height: 250px;
-    border-radius: 5px;
+    background-color: rgb(168, 126, 207);
 
 }
-.img2{
-    margin: 10px;
-    width: 350px;
-    height: 250px;
-    border-radius: 5px;
+@media (min-width: 320px){
+    div.example{
+        font-size: 60px;
+    }
+}
+
+.img{
+    background-color: rgb(168, 126, 207);
+display: flex;
 
 }
-.img3{
-    margin: 10px;
-    width: 350px;
-    height: 250px;
-    border-radius: 5px;
+@media screen and (min-width: 600px){
 
 }
-.img4{
-    margin: 10px;
-    width: 350px;
-    height: 250px;
-    border-radius: 5px;
+img{
+    width: 1000px;
 
 }
-.img5{
-    margin: 10px;
-    width: 350px;
-    height: 250px;
-    border-radius: 5px;
+body{
+        background-color: rgb(168, 126, 207);
 
 }
-.img6{
-    margin: 10px;
-    width: 350px;
-    height: 250px;
-    border-radius: 5px;
 
-}
-.img7{
-    margin: 10px;
-    width: 350px;
-    height: 250px;
-    border-radius: 5px;
-}
-.img8{
-    margin: 10px;
-    width: 350px;
-    height: 250px;
-    border-radius: 5px;
-}
-.img9{
-    margin: 10px;
-    width: 350px;
-    height: 250px;
-    border-radius: 5px;
-}
 
 /*tour*/
 .tour1{
