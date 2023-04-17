@@ -1,0 +1,264 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*home*/
+
+a, a:active { 
+    text-decoration: none;
+    color: rgba(82, 1, 164, 0.731);
+}
+.nombreL{
+    margin: 20px;
+}
+.claseHeader{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(180, 146, 211);
+    flex-direction: row;
+    font-family: 'Alkatra', cursive;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+list-style: none;
+
+}
+.menu li{
+    margin: 30px;
+}
+
+.medio{
+    min-height: 84vh;
+    display: flex;
+    background-color: rgb(239, 196, 255);
+    }
+.final{
+    background-color: rgb(180, 146, 211);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.redes a i{
+    font-size: 20px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.redes a i:hover{
+    transform: scale(2);
+}
+
+.imgP{
+width: 1350px;
+height:700px;
+
+}
+
+/*discografica*/
+
+.disco{
+    margin: 40px;
+    min-height: 84vh;
+    position: relative;
+    width: 70%;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+.medioD{
+    min-height: 84vh;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+   flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center
+    
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    background-color: rgb(188, 146, 199);
+    right: auto;
+    width:300px;
+  word-wrap: break-word;
+  text-align:center;
+  font-family: 'Alkatra', cursive;
+  margin: 20px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.medio-contacto{
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: rgb(175, 121, 175);
+
+
+}
+      /* contacto*/
+.form{
+    width: 80vh;
+    margin: 16px 0;
+    background-color: rgb(175, 121, 175);
+    border-radius: 10px;
+    padding: 20px ;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenido-form{
+   background: rgb(204, 158, 191);
+   width: 90%;
+   padding: 65px;
+text-align: center;
+box-shadow: 0 5px 5px;
+border-radius: 19px;
+}
+.estilo-form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.label{
+    color: black;
+    text-align: center;
+    width: 500px;
+    
+}
+
+.input{
+    display: block;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px;
+text-align: center;
+padding: 10px;
+border: 1px solid antiquewhite;
+
+}
+
+.btn-form{
+    outline: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: rgb(168, 126, 207);
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+.btn-form:hover{
+    background-color: rgb(168, 126, 207);
+}
+
+.contacto-form1{
+    margin: 10px;
+    color: black;
+} 
+    /* galeria*/
+
+.galeriaL{
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+}
+.img1{
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+
+}
+.img2{
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+
+}
+.img3{
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+
+}
+.img4{
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+
+}
+.img5{
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+
+}
+.img6{
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+
+}
+.img7{
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+}
+.img8{
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+}
+.img9{
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+/*tour*/
+.tour1{
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+}
+
+
+.imgT{
+   width: 1350px;
+   height: 800px;
+}
