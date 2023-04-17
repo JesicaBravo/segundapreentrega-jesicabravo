@@ -23,6 +23,8 @@ a, a:active {
     background-color: rgb(180, 146, 211);
     flex-direction: row;
     font-family: 'Alkatra', cursive;
+    width: 1450px;
+
 }
 
 .menu{
@@ -42,10 +44,12 @@ list-style: none;
     }
 .final{
     background-color: rgb(180, 146, 211);
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 1450px;
+
 }
 .redes a i{
     font-size: 20px;
@@ -57,7 +61,7 @@ list-style: none;
 }
 
 .imgP{
-width: 1350px;
+width: 1450px;
 height:700px;
 
 }
@@ -259,6 +263,6 @@ border: 1px solid antiquewhite;
 
 
 .imgT{
-   width: 1350px;
+   width: 1450px;
    height: 800px;
 }
